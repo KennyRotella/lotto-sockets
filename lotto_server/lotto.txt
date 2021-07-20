@@ -1,0 +1,19 @@
+   ____ _                       _      _   _          _   _
+  / ___(_) ___   ___ ___     __| | ___| | | |    ___ | |_| |_ ___
+ | |  _| |/ _ \ / __/ _ \   / _` |/ _ \ | | |   / _ \| __| __/ _ \
+ | |_| | | (_) | (_| (_) | | (_| |  __/ | | |__| (_) | |_| || (_) |
+  \____|_|\___/ \___\___/   \__,_|\___|_| |_____\___/ \__|\__\___/
+
+  Sono disponibili i seguenti comandi:
+  1) !help <comando> --> mostra i dettagli di un comando
+  2) !signup <username> <password> --> crea un nuovo utente
+  3) !login <username> <password> --> autentica un utente
+  4) !invia_giocata g --> invia una giocata g al server
+  5) !vedi_giocate tipo --> visualizza le giocate precedenti dove tipo = {0,1}
+  e permette di visualizzare le giocate passate ‘0’
+  oppure le giocate attive ‘1’ (ancora non estratte)
+  6) !vedi_estrazione <n> <ruota> --> mostra i numeri delle ultime n estrazioni
+  sulla ruota specificata
+  7) !vedi_vincite --> mostra tutte le vincite del client, l’estrazione in cui
+  sono state realizzate e un consuntivo per tipologia di giocata
+  8) !esci --> termina il client
